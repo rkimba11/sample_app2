@@ -12,10 +12,10 @@ development:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: sample_app2_development
+  database: MYSQL55
   pool: 5
   username: root
-  password:
+  password: 5WoDIJO5
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
@@ -25,18 +25,18 @@ test:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: sample_app2_test
+  database: MYSQL55
   pool: 5
   username: root
-  password:
+  password: 5WoDIJO5
   host: localhost
 
 production:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: sample_app2_production
+  database: MYSQL55
   pool: 5
   username: root
-  password:
+  password: 5WoDIJO5
   host: localhost
