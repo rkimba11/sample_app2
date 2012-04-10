@@ -5,13 +5,17 @@ gem 'rails', '3.2.3'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2'
+group :production do
+  gem 'pg'
+end
 
 group :development do
+  gem 'mysql2'
   gem 'rspec-rails', '2.0.1'
 end
 
 group :test do
+  gem 'mysql2'
   gem 'rspec', '2.0.1'
   gem 'webrat', '0.7.1'
 end
