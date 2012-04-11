@@ -1,7 +1,8 @@
 require 'spec_helper'
 
 describe PagesController do
-
+  render_views
+  
   describe "GET 'home'" do
     it "returns http success" do
       get 'home'
