@@ -14,7 +14,7 @@ development:
   database: sample_app2_prod
   username: root
   password: 5WoDIJO5
-  host: 127.0.0.1
+  host: localhost
   port: 3306
 
 # Warning: The database defined as "test" will be erased and
@@ -28,7 +28,7 @@ test:
   pool: 5
   username: root
   password: 
-  host: 127.0.0.1
+  host: localhost
 
 production:
   adapter: pg
@@ -38,4 +38,4 @@ production:
   pool: 5
   username: root
   password: 
-  host: 127.0.0.1
+  host: localhost
